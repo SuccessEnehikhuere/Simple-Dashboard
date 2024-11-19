@@ -1,17 +1,18 @@
 import React from 'react'
 import LinksDropdown from './LinksDropdown'
-import icon1 from "@/assets/images/icon (2).svg"
+import icon1 from '@/assets/images/icon (2).svg'
 import icon2 from '@/assets/images/icon (3).svg'
-import ProfilePic from "@/assets/images/Avatar (1).svg"
+import ProfilePic from '@/assets/images/Avatar (1).svg'
+import { FaSearch } from 'react-icons/fa'
 
 function NavBar() {
   return (
-    <nav className="py-4 sm:px-4 lg:px-20 px-4 flex justify-between lg:block items-center">
+    <nav className="py-4 px-2 sm:px-8 lg:px-16 flex justify-between lg:block items-center bg-white">
       <div className="">
         <LinksDropdown />
       </div>
       <div className="flex items-center justify-between">
-        <div className="hidden sm:block">
+        <div className="hidden lg:block">
           <p className="text-[#111827] font-bold text-[24px] leading-8">
             Hi, Taylor!
           </p>
@@ -20,20 +21,34 @@ function NavBar() {
           </p>
         </div>
         <div className="flex items-center">
-          <div>
+          <div className="relative">
+            <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+
             <input
-            className="border border-[#D9D9D9] rounded-md bg-[#FAFAFA] py-2 px-4"
-            placeholder="Search"
-          /> 
+              className="border border-[#D9D9D9] rounded-md bg-[#FAFAFA] py-[4px] md:py-2 pl-8 md:pl-12 md:px-4"
+              placeholder="Search"
+            />
           </div>
-         
-          <img src={icon1} alt="inbox" />
-          <img src={icon2} alt="notification" />
-          <div className="border border-[#EEEFF2] h-[40px] mr-6" />
+
+          <img
+            src={icon1}
+            alt="inbox"
+            className="w-10 h-10 md:w-[48px] md:h-[48px]"
+          />
+          <img
+            src={icon2}
+            alt="notification"
+            className="w-10 h-10 md:w-[48px] md:h-[48px]"
+          />
+
+          <div className="border border-[#EEEFF2] h-[40px] mr-4 md:mr-6" />
           <div className="flex items-center">
-            <img src={ProfilePic} alt="profile-pic" />
-            <p
-              className="text=[#111827] font-bold text-[16px] pl-4">
+            <img
+              src={ProfilePic}
+              alt="profile-pic"
+              className="w-8 h-8 md:w-[48px] md:h-[48px]"
+            />
+            <p className="text=[#111827] font-bold text-sm md:text-[16px] pl-4">
               Tynisha Obey
             </p>
           </div>

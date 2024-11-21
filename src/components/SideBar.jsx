@@ -38,7 +38,7 @@ function SideBar() {
       </div>
 
       {/* Subscription Section */}
-      <div className=" bg-[#F8F9FB] flex flex-col rounded-md mt-60 mb-[40px]">
+      <div className=" bg-[#F8F9FB] flex flex-col rounded-lg mt-[28rem] mb-[40px]">
         <div className="flex justify-between relative">
           <img src={ProgressCircle} className="p-4" />
           <img src={CloseButton} className="absolute left-36" />

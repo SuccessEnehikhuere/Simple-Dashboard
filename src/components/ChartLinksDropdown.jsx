@@ -19,8 +19,8 @@ function ChartLinksDropdown({ children }) {
         align="start"
         sideOffset={25}
       >
-        {optionsList.map((item) => (
-          <DropdownMenuItem key={item.href}>
+        {optionsList.map((item, index) => (
+          <DropdownMenuItem key={index}>
             <div className="flex items-center gap-x-2 hover:text-red-500 group">
               <div className="flex gap-3 items-center">
                 {/* Image hover effect */}

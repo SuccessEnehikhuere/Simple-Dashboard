@@ -47,7 +47,7 @@ function Main() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 lg:flex-row gap-x-4 p-4">
+        <div className="grid grid-cols-2 lg:flex gap-x-4 p-4">
           <MenuCard
             image={burger1}
             title="Surf & Turf Gift Basket"
@@ -59,7 +59,7 @@ function Main() {
             width="379px"
           />
         </div>
-        <div className="grid grid-cols-2 lg:flex gap-x-4 p-4">
+        <div className="grid grid-cols-2 lg:flex gap-x-6 p-4">
           <MenuCard
             image={burger3}
             title="Surf & Turf Gift Basket"

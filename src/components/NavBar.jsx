@@ -1,7 +1,7 @@
 import React from 'react'
 import LinksDropdown from './LinksDropdown'
-import icon1 from '@/assets/images/icon (2).svg'
-import icon2 from '@/assets/images/icon (3).svg'
+import icon1 from '@/assets/images/Icon (2).svg'
+import icon2 from '@/assets/images/Icon (3).svg'
 import ProfilePic from '@/assets/images/Avatar (1).svg'
 import { FaSearch } from 'react-icons/fa'
 

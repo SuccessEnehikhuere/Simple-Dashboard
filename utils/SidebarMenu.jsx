@@ -15,21 +15,21 @@ export const menuItems = [
     name: 'Orders',
     icon: <img src={OrdersIcon} alt="Orders Icon" />,
     secondaryIcon: <img src={BellIcon} alt="Bell Icon" />,
-    link: '/orders',
+    link: '/dashboard',
   },
   {
     name: 'Analytics',
     icon: <img src={AnalyticsIcon} alt="Analytics Icon" />,
-    link: '/analytics',
+    link: '/dashboard',
   },
   {
     name: 'Customer',
     icon: <img src={CustomersIcon} alt="Customers Icon" />,
-    link: '/customer',
+    link: '/dashboard',
   },
   {
     name: 'Menu',
     icon: <img src={MenuIcon} alt="Menu Icon" />,
-    link: '/menu',
+    link: '/dashboard',
   },
 ]
